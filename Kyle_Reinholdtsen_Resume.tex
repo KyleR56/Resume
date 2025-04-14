@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper,sans]{moderncv}
-\usepackage[scale=0.9]{geometry}
+\usepackage[scale=0.9, bottom=2.5cm]{geometry}
 \usepackage{paralist}
 \usepackage{lmodern}
 \usepackage[colorlinks=true, urlcolor=blue]{hyperref}
@@ -8,8 +8,9 @@
 \moderncvstyle{casual}
 
 \name{Kyle}{Reinholdtsen}
-\title{Software Engineer}  
+\title{Full Stack Engineer}  
 \mobile{(425)~215-2474}
+\address{Seattle}{WA}{}
 \email{kyle@reinholdtsen.com}
 \social[linkedin][linkedin.com/in/kyle-reinholdtsen-306849223/]{Kyle Reinholdtsen}
 \homepage{kyle.reinholdtsen.com}
@@ -22,20 +23,20 @@
 
 \vspace{-1em}
 \cventry{}{}{}{}{}{
-  Proficient full stack developer with 2 years of experience in web programming, object-oriented design, distributed systems, and machine learning. Thrives in collaborative environments and works effectively in teams to deliver high-quality software.
+  Proficient full stack engineer with 1+ years of experience in web programming, object-oriented design, distributed systems, and machine learning. Thrives in collaborative environments and works effectively in teams to deliver high-quality software.
 }
 
 \section{Skills}
 
 \cventry{}{Languages}{}{}{}{
   \begin{compactitem}
-    \item Java, JavaScript, HTML, CSS, Python, C, C++, C\#, SQL.
+    \item Java, JavaScript, TypeScript, HTML, CSS, Python, C\#, SQL.
   \end{compactitem}
 }
 
 \cventry{}{Technologies}{}{}{}{
   \begin{compactitem}
-    \item React, Angular, Node.js, REST APIs, HTTP, Linux, Git, PyTorch.
+    \item React, Angular, Node.js, Express, REST APIs, HTTP, Docker, AWS, Linux, Git,.
   \end{compactitem}
 }
 
@@ -70,21 +71,22 @@
 
 \section{Projects}
 
-\cventry{}{MuseShare \href{https://github.com/KyleR56/MuseShare}{\texttt{(GitHub)}}}{}{}{}{
-  \begin{compactitem}
-    \item Built an online music sharing website for discovering and interacting with indie artists.
-    \item Designed and developed the user interface using React, ensuring optimal performance across both desktop and mobile devices.
-    \item Integrated Firebase for database management and secure user authentication.
-  \end{compactitem}
-}
-
 \cventry{}{MCQuest}{}{}{}{
   \begin{compactitem}
-    \item Created an online multiplayer game within Minecraft where players can explore a fantasy world,
-    complete quests, slay enemies, and upgrade their character.    
+    \item Collaborated with a team of 5 to create an online multiplayer game within Minecraft, where players explore a fantasy world, complete quests, slay enemies, and upgrade their character.
+    \item Followed an Agile development cycle with continuous integration and continuous deployment (CI/CD) to streamline updates and maintain code quality.
     \item Deployed a remote server which players can connect to with a default Minecraft client.
     \item Developed server-side game logic using Java such as physics calculations, item and skill behavior, and
     data persistence.
+  \end{compactitem}
+}
+
+\cventry{}{Paintle}{\href{https://paintle.net}{\textnormal{paintle.net}}}{\href{https://github.com/KyleR56/paintle-front-end}{\textnormal{GitHub}}}{}{
+  \begin{compactitem}
+    \item Created Paintle, a website inspired by Wordle where users solve a daily puzzle by painting a 5x5 grid.
+    \item Developed the frontend using Angular, ensuring an accessible interface for both desktop and mobile users.
+    \item Built the backend with Node.js and Express to serve webpage content and handle API requests.
+    \item Deployed the application using Docker containers on AWS Fargate, leveraging load balancing for scalability.
   \end{compactitem}
 }
 
