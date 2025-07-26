@@ -10,7 +10,7 @@
 \name{Kyle}{Reinholdtsen}
 \title{Software Engineer}  
 \mobile{(425)~215-2474}
-\address{Seattle}{WA}{}
+\address{Greater Seattle Area}{WA}{}
 \email{kyle@reinholdtsen.com}
 \social[linkedin][linkedin.com/in/kyle-reinholdtsen-306849223/]{Kyle Reinholdtsen}
 \homepage{kyle.reinholdtsen.com}
@@ -23,57 +23,35 @@
 
 \section{About}
 
-\vspace{-1em}
+\vspace{-1.25em}
 \cventry{}{}{}{}{}{
-  Proficient full stack developer with 1+ years of experience in web programming, object-oriented design, distributed systems, and machine learning. Thrives in collaborative environments and works effectively in teams to deliver high-quality software.
+  Full-stack software engineer with hands-on experience building production-ready web apps using React, Angular, Node.js, and AWS. Passionate about frontend UX, scalable backend design, and cloud-native deployments using Docker and serverless architecture. Strong foundation in distributed systems and team-based software delivery.
 }
 
 \section{Skills}
 
-\cventry{}{Languages}{}{}{}{
+\vspace{-1.25em}
+\cventry{}{}{}{}{}{
   \begin{compactitem}
-    \item Java, JavaScript, TypeScript, HTML, CSS, Python, C\#, SQL.
+    \item \textbf{Languages:} TypeScript, JavaScript, Python, Java, HTML, CSS
+    \item \textbf{Frontend:} Angular, React, Redux, Responsive Design, RxJS
+    \item \textbf{Backend:} Node.js, Express, REST APIs
+    \item \textbf{AWS:} S3, Lambda, DynamoDB, Fargate, ECS, API Gateway
+    \item \textbf{DevOps \& Tools:} Git, Docker, CI/CD, Linux
+    \item \textbf{Certifications:} AWS Certified Cloud Practitioner
   \end{compactitem}
 }
 
-\cventry{}{Tools \& Platforms}{}{}{}{
-  \begin{compactitem}
-    \item React, Angular, Node.js, Express, REST APIs, HTTP, Docker, AWS, Linux, Git.
-  \end{compactitem}
-}
-
-\cventry{}{Certifications}{}{}{}{
-  \begin{compactitem}
-    \item AWS Certified Cloud Practitioner.
-  \end{compactitem}
-}
-
-\section{Education}
-
-\cventry{06/2021--12/2023}{B.S. Computer Science \& Engineering}{University of Washington}{}{Seattle}{
-  \begin{compactitem}
-    \item \textbf{\textit{Classes:}} Distributed Systems, Operating Systems, Data Structures \& Algorithms, Compilers, Machine Learning, Artificial Intelligence, Software Engineering, Computer Vision, Programming Languages, Systems Programming, Database Systems, Interaction Programming, Client-Side Development.
-    \item \textbf{\textit{GPA:}} 3.88 (Cum Laude, Dean's List).
-  \end{compactitem}
-}
-
-\section{Experience}
+\section{Technical Experience}
 
 \cventry{01/2022--03/2023}{Software Engineer}{Husky Robotics, University of Washington}{Seattle}{}{
   \begin{compactitem}
-    \item Developed the mission control website for operating the team’s rover using JavaScript, React, and
-    Redux.
-    \begin{compactitem}
-      \item Designed and implemented a custom WebSocket-based messaging protocol to enable real-time, bidirectional communication between the mission control website and the rover.
-      \item Created UI elements to display rover camera feeds and telemetry data (position, power, velocity).
-      \item Implemented a 3D rendering of the rover with React Three Fiber, dynamically updated in real-time using telemetry data.
-    \end{compactitem}
-    \item Developed a Unity simulator that emulates the rover’s cameras, motors, wheels, and sensors in a 3D
-    virtual environment, and transmits camera feeds and telemtry data to the mission control website.
-    \begin{compactitem}
-      \item Enabled users to orbit the rover within the simulator using intuitive mouse controls.
-      \item Added functionality to configure the rover's intrinsic camera parameters for enhanced simulation accuracy.
-    \end{compactitem}
+    \item Built the mission control website for Husky Robotics, a student engineering team, to operate the team’s rover using JavaScript, React, and Redux.
+    \item Participated in peer code reviews, wrote and reviewed GitHub pull requests, and maintained high code quality through feedback cycles and issue tracking.
+    \item Used Git for version control, contributed to feature branches, and helped enforce coding standards and write documentation.
+    \item Designed and implemented a custom WebSocket-based JSON messaging protocol to enable real-time, bidirectional communication between the mission control website and the rover.
+    \item Created UI elements to display rover camera feeds and telemetry data (position, power, velocity).
+    \item Implemented a 3D rendering of the rover with React Three Fiber, dynamically updated in real-time using telemetry data.
   \end{compactitem}
 }
 
@@ -82,18 +60,25 @@
 \cventry{}{Paintle}{\href{https://paintle.net}{\textnormal{paintle.net}}}{\href{https://github.com/KyleR56/paintle-front-end}{\textnormal{GitHub}}}{}{
   \begin{compactitem}
     \item Created Paintle, a website inspired by Wordle where users solve a daily puzzle by painting a 5x5 grid.
-    \item Developed the frontend using Angular, ensuring an accessible interface for both desktop and mobile users.
-    \item Built the backend with Node.js and Express to serve webpage content and handle API requests.
-    \item Deployed the application using Docker containers on AWS Fargate, leveraging load balancing for scalability.
+    \item Built a responsive frontend using Angular, designed for seamless play on both desktop and mobile browsers.
+    \item Deployed a fully serverless architecture on AWS using S3 (frontend), Lambda (backend logic), API Gateway (routing), and DynamoDB (storage), achieving <$200\,$ms cold-start latency and \$0 backend cost under typical usage.
+    \item Implemented secure authentication via Google OAuth 2.0 and JSON Web Tokens (JWT), incorporating best practices such as short-lived tokens, RS256 signing, and validation of token audience and issuer.
   \end{compactitem}
 }
 
 \cventry{}{MCQuest}{\href{https://github.com/KyleR56/mc-quest}{\textnormal{GitHub}}}{}{}{
   \begin{compactitem}
-    \item Collaborated with a team of 5 to create an online multiplayer game within Minecraft, where players explore a fantasy world, complete quests, slay enemies, and upgrade their character.
-    \item Followed an Agile development cycle with continuous integration and continuous deployment (CI/CD) to streamline updates, automate testing, and maintain code quality.
-    \item Developed server-side game logic using Java such as physics calculations, item and skill behavior, and
-    data persistence.
+    \item Developed a custom Minecraft server to support a multiplayer RPG with questing, combat, and character progression.
+    \item Implemented backend systems in Java for handling in-game mechanics such as physics calculations, skill behavior, item interactions, and data persistence.
+    \item Collaborated with a 5-person team using Agile practices including structured requirements planning, sprint-based development, weekly standups, and CI/CD pipelines to ensure quality and fast iteration.
+  \end{compactitem}
+}
+
+\section{Education}
+
+\cventry{06/2021--12/2023}{B.S. Computer Science \& Engineering}{University of Washington}{Seattle}{}{
+  \begin{compactitem}
+    \item \textbf{GPA:} 3.88 (Cum Laude)
   \end{compactitem}
 }
 
