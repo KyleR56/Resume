@@ -21,46 +21,39 @@
 
 \vspace{-1.5em}
 
-\section{About}
+\section{Experience}
 
-\cvitem{}{
-  Full-stack software engineer with hands-on experience building production-ready web apps using React, Angular, Node.js, and AWS. Passionate about frontend UX, scalable backend design, and cloud-native deployments using Docker and serverless architecture. Strong foundation in distributed systems and team-based software delivery.
+\cventry{08/2025 -- Present}{Full Stack Software Engineer}{Citizen Mint}{Remote}{}{
+  \begin{compactitem}
+    \item Developed a full-stack web application using Vue (Nuxt), FastAPI, PostgreSQL, and AWS.
+    \item Architected and built an internal payment distribution system that processed \$500k+ in investor returns with 0 payment errors over 3 months.
+    \item Streamlined admin workflows including CSV upload/download, rich text and media content management, and PDF document generation, reducing operation time from hours to minutes.
+    \item Implemented secure authentication features including MFA (email/SMS via Cognito + Lambda) and JWT-based inactivity timeouts.
+    \item Delivered responsive and accessible investment listing pages with client-side filtering for 10+ offerings.
+  \end{compactitem}
 }
 
-\section{Skills}
-
-\cvitem{Languages}{TypeScript, JavaScript, Python, Java, HTML, CSS}
-\cvitem{Frontend}{Angular, React, Redux, Responsive Design, RxJS}
-\cvitem{Backend}{Node.js, Express, REST APIs}
-\cvitem{AWS}{S3, Lambda, DynamoDB, Fargate, ECS, API Gateway}
-\cvitem{DevOps \& Tools}{Git, Docker, CI/CD, Linux}
-\cvitem{Certifications}{AWS Certified Cloud Practitioner}
+\cventry{01/2022 -- 03/2023}{Software Engineer}{Husky Robotics Club, University of Washington}{Seattle}{}{
+  \begin{compactitem}
+    \item Developed the mission control web application for Husky Robotics, a student engineering team, to operate the team’s rover using JavaScript, React, and Redux.
+    \item Designed and implemented a custom WebSocket-based JSON messaging protocol to enable real-time, bidirectional communication between the mission control website and the rover.
+    \item Visualized live rover telemetry through dashboards displaying position, power, velocity, and camera feeds.
+    \item Rendered a 3D model of the rover using React Three Fiber, dynamically updated from telemetry data.
+  \end{compactitem}
+}
 
 \section{Education}
 
 \cventry{06/2021 -- 12/2023}{B.S. Computer Science \& Engineering}{University of Washington}{Seattle}{}{}
 \cvitem{}{\textbf{GPA:} 3.88 (Cum Laude)}
 
-\section{Technical Experience}
-
-\cventry{01/2022 -- 03/2023}{Software Engineer}{Husky Robotics, University of Washington}{Seattle}{}{
-  \begin{compactitem}
-    \item Built the mission control website for Husky Robotics, a student engineering team, to operate the team’s rover using JavaScript, React, and Redux.
-    \item Maintained high code quality through Git-based collaboration, including feature branching, peer reviews, and issue tracking with detailed documentation.
-    \item Designed and implemented a custom WebSocket-based JSON messaging protocol to enable real-time, bidirectional communication between the mission control website and the rover.
-    \item Created UI elements to display rover camera feeds and telemetry data (position, power, velocity).
-    \item Implemented a 3D rendering of the rover with React Three Fiber, dynamically updated in real-time using telemetry data.
-  \end{compactitem}
-}
-
 \section{Projects}
 
 \cventry{}{Paintle}{\href{https://paintle.net}{\textnormal{paintle.net}}}{\href{https://github.com/KyleR56/paintle-front-end}{\textnormal{GitHub}}}{}{
   \begin{compactitem}
-    \item Created Paintle, a website inspired by Wordle where users solve a daily puzzle by painting a 5x5 grid.
-    \item Built a responsive frontend using Angular, designed for seamless play on both desktop and mobile browsers.
+    \item Designed and shipped a responsive Wordle-inspired puzzle game in Angular, designed for seamless play on both desktop and mobile.
     \item Deployed a fully serverless architecture on AWS using S3 (frontend), Lambda (backend logic), API Gateway (routing), and DynamoDB (storage), achieving <$200\,$ms cold-start latency and \$0 backend cost under typical usage.
-    \item Implemented secure authentication via Google OAuth 2.0 and JSON Web Tokens (JWT), incorporating best practices such as short-lived tokens, RS256 asymmetric signing, and validation of token audience and issuer.
+    \item Integrated secure authentication via Google OAuth 2.0 and JWTs, incorporating best practices such as short-lived tokens, RS256 asymmetric signing, and validation of token audience and issuer.
   \end{compactitem}
 }
 
@@ -68,8 +61,16 @@
   \begin{compactitem}
     \item Developed a custom Minecraft server to support a multiplayer RPG with questing, combat, and character progression.
     \item Collaborated with a 5-person team using Agile practices including structured requirements planning, sprint-based development, weekly standups, and CI/CD pipelines to ensure quality and fast iteration.
-    \item Implemented backend systems in Java for handling in-game mechanics such as physics calculations, skill behavior, item interactions, and data persistence.
+    \item Engineered backend systems in Java for handling in-game mechanics such as physics calculations, skill behavior, item interactions, and data persistence.
   \end{compactitem}
 }
+
+\section{Skills}
+
+\cvitem{Languages}{TypeScript, Python, Java}
+\cvitem{Frontend}{Vue (Nuxt), React, Tailwind CSS}
+\cvitem{Backend}{Node.js, Express, FastAPI, PostgreSQL}
+\cvitem{Cloud}{AWS (ECS, RDS, S3, Lambda, API Gateway, SNS)}
+\cvitem{DevOps \& Tools}{Git, GitHub Actions (CI/CD), Docker}
 
 \end{document}
